@@ -1,0 +1,18 @@
+next-app:
+  component: '@serverless/tencent-nextjs'
+  inputs:
+    functionName: nextjs-function
+    region: ap-guangzhou
+    runtime: Nodejs10.15
+    code: ./
+    functionConf:
+      timeout: 60
+      memorySize: 128
+    environment:
+      variables:
+        ENV: true
+    apigatewayConf:
+      protocols:
+        - http
+        - https
+      environment: release
