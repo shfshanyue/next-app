@@ -2,6 +2,13 @@
   "name": "next-app",
   "license": "ISC",
   "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/shfshanyue/next-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shfshanyue/next-app"
+  },
   "scripts": {
     "dev": "next",
     "ncu": "ncu",
@@ -9,11 +16,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "@types/node": "^14.0.24",
-    "@types/react": "^16.9.43",
-    "@types/react-helmet": "^6.0.0",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "@types/react-helmet": "^6.1.0",
     "express": "^4.17.1",
-    "next": "^9.4.4",
+    "next": "^9.5.1",
     "npm-check-updates": "^7.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
