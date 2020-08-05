@@ -39,6 +39,8 @@ $ npm run dev
 
 ### Tencent Serverless Framework
 
+Live Demo: <https://service-3btidaow-1257314149.gz.apigw.tencentcs.com/>
+
 ``` bash
 $ npm run build
 
@@ -48,6 +50,7 @@ $ sls --debug
 ### Vercel
 
 ``` bash
+$ vercel
 ```
 
 ### Docker 
