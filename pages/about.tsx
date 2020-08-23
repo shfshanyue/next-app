@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <div>
+    <div className="p-4">
       <Helmet
         title="About | Hello next.js!"
         meta={[{ property: 'og:title', content: 'About' }]}
