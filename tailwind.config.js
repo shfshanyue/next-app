@@ -7,6 +7,9 @@ module.exports = {
       },
     },
   },
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   variants: {},
   plugins: []
 }
