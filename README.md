@@ -47,18 +47,14 @@ $ npm run build
 $ sls --debug
 ```
 
+### Docker and Traefik
+
+``` bash
+$ docker-compose up -d
+```
+
 ### Vercel
 
 ``` bash
 $ vercel
-```
-
-### Docker 
-
-``` bash
-```
-
-### Traefik
-
-``` bash
 ```
