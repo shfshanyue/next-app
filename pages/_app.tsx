@@ -14,18 +14,30 @@ function MyApp({ Component, pageProps }: AppProps) {
     Router.events.on('routeChangeComplete', logPageView)
   }, [])
 
+  const meta = [
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1',
+    },
+    { 
+      property: 'og:title',
+      content: 'Hello next.js!'
+    },
+  ]
+
+  if (process.env.baiduToken) {
+    meta.push({
+      name: 'baidu-site-verification',
+      content: process.env.baiduToken
+    })
+  }
+
   return (
     <>
       <Helmet
         htmlAttributes={{ lang: 'en' }}
         title="Hello next.js!"
-        meta={[
-          {
-            name: 'viewport',
-            content: 'width=device-width, initial-scale=1',
-          },
-          { property: 'og:title', content: 'Hello next.js!' },
-        ]}
+        meta={meta}
       />
       <Component {...pageProps} />
     </>

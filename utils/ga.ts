@@ -1,9 +1,8 @@
 import ReactGA from 'react-ga'
-import config from '../config'
 
 export const initGA = () => {
   // 设置 GA code
-  ReactGA.initialize(config.ga)
+  ReactGA.initialize(process.env.gaId || '')
 }
 
 export const logPageView = () => {
