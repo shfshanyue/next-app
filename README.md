@@ -1,6 +1,17 @@
 # Next App for SEO
 
-本示例结合 `next`、`ga`、`helmet` 及 `typescript` 快速开发并部署到多个平台
+本模板使用 `typescript` 和 `tailwind` 开发 Next 应用，支持 `google analysis`，`SEO` 等，可快速部署在 `vercel`，`tencent serverless` 及 `docker` 上。
+
+## 技术栈
+
++ `typescript`
++ `tailwind`
++ `google analysis`
++ `helmet + SEO`
++ `vercel`
++ `serverless component`
++ `docker`
++ `traefik`
 
 ## 快速使用
 
