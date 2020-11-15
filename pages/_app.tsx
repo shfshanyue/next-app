@@ -9,9 +9,11 @@ import '../styles/index.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    initGA()
-    logPageView()
-    Router.events.on('routeChangeComplete', logPageView)
+    if (process.env.gaId) {
+      initGA()
+      logPageView()
+      Router.events.on('routeChangeComplete', logPageView)
+    }
   }, [])
 
   const meta = [
