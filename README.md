@@ -2,11 +2,15 @@
 
 本模板使用 `typescript` 和 `tailwind` 开发 Next 应用，支持 `google analysis`，`SEO` 等，可快速部署在 `vercel`，`tencent serverless` 及 `docker` 上。
 
-## 技术栈
+## 功能
 
 + `typescript`
 + `tailwind`
 + `google analysis`
++ `google tag manger`
++ `classNames`
++ `bundle analysis`
++ `inline inline`
 + `helmet + SEO`
 + `vercel`
 + `serverless component`
