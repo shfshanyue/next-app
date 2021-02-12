@@ -90,6 +90,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@corex/deepmerge@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-2.5.3.tgz#ecdb8e4c0617ada2a5af0c0400f56562d1f0ea31"
+  integrity sha512-9q+jWQ6zqBc7iU2ItxYcoA+G/QUxPt0eo7d3PVNy30HOCpIEX/oZPmtoC3+XSJNyHdV39MGrq+EIpVh81jcapw==
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/@csstools/convert-colors/download/@csstools/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -1556,6 +1561,11 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
 esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/esutils/download/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
@@ -2562,6 +2572,13 @@ map-age-cleaner@^0.1.3:
   dependencies:
     p-defer "^1.0.0"
 
+matcher@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/matcher/-/matcher-3.0.0.tgz#bd9060f4c5b70aa8041ccc6f80368760994f30ca"
+  integrity sha512-OkeDaAZ/bQCxeFAozM55PKcKU0yJMPGifLwV4Qgjitu+5MoAfSQN4lsLJeXZ1b8w0x+/Emda6MZgXS1jvsapng==
+  dependencies:
+    escape-string-regexp "^4.0.0"
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.npm.taobao.org/md5.js/download/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -2802,6 +2819,15 @@ negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.npm.taobao.org/negotiator/download/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
+
+next-sitemap@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-1.5.2.tgz#d51d39004aec8dea2638f6afd2af2073d726292e"
+  integrity sha512-vOZAp8YcNx5lt5d50N7a873IAUsXS1ZCZIS1Bv7ANp6n4NButhyBaU0pZLYWmjgP9wd4M0dKiXO9eaXn4DW9SQ==
+  dependencies:
+    "@corex/deepmerge" "^2.5.3"
+    matcher "^3.0.0"
+    minimist "^1.2.5"
 
 next@^10.0.6:
   version "10.0.6"

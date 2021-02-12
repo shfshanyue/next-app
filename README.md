@@ -8,6 +8,7 @@
 + `tailwind`
 + `classNames`
 + `google analysis`
++ `auto sitemap`
 + `google tag manger`
 + `bundle analysis`
 + `inline assets`

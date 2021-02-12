@@ -20,11 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     {
       name: 'viewport',
       content: 'width=device-width, initial-scale=1',
-    },
-    { 
-      property: 'og:title',
-      content: 'Hello next.js!'
-    },
+    }
   ]
 
   if (process.env.baiduToken) {
