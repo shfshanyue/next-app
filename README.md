@@ -6,11 +6,11 @@
 
 + `typescript`
 + `tailwind`
++ `classNames`
 + `google analysis`
 + `google tag manger`
-+ `classNames`
 + `bundle analysis`
-+ `inline inline`
++ `inline assets`
 + `helmet + SEO`
 + `vercel`
 + `serverless component`
