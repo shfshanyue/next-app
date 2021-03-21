@@ -5,7 +5,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const config = {
   env: {
     gaId: 'UA-',
-    baiduToken: ''
   }
 }
 

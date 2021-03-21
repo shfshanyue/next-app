@@ -23,13 +23,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   ]
 
-  if (process.env.baiduToken) {
-    meta.push({
-      name: 'baidu-site-verification',
-      content: process.env.baiduToken
-    })
-  }
-
   return (
     <>
       <Helmet
