@@ -3,6 +3,11 @@ import Link from 'next/link'
 
 const Home = () => (
   <div className="p-4">
+    <style jsx>{`
+    a {
+      @apply bg-gray-100;
+    }
+    `}</style>
     <Helmet
       title="Home | Hello next.js!"
       meta={[{ property: 'og:title', content: 'Home' }]}
