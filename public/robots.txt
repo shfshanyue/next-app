@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://example.com
+Host: https://next-app-shanyue.vercel.app
 
 # Sitemaps
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://next-app-shanyue.vercel.app/sitemap.xml

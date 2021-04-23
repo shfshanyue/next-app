@@ -3,6 +3,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 const config = {
+  future: {
+    webpack5: true
+  },
   env: {
     gaId: 'UA-',
   }
