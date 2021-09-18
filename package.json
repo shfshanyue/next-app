@@ -17,17 +17,17 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^10.2.0",
-    "@types/node": "^15.0.1",
-    "@types/react": "^17.0.4",
-    "@types/react-helmet": "^6.1.1",
-    "autoprefixer": "^10.2.5",
+    "@next/bundle-analyzer": "^11.1.2",
+    "@types/node": "^16.9.2",
+    "@types/react": "^17.0.21",
+    "@types/react-helmet": "^6.1.2",
+    "autoprefixer": "^10.3.4",
     "classnames": "^2.3.1",
     "express": "^4.17.1",
     "lodash": "^4.17.21",
-    "next": "^10.2.0",
-    "npm-check-updates": "^11.5.10",
-    "postcss": "^8.2.13",
+    "next": "^11.1.2",
+    "npm-check-updates": "^11.8.5",
+    "postcss": "^8.3.6",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "react": "^17.0.2",
@@ -35,11 +35,11 @@
     "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
     "styled-jsx-plugin-postcss": "^4.0.1",
-    "tailwindcss": "^2.1.2",
-    "typescript": "^4.2.4"
+    "tailwindcss": "^2.2.15",
+    "typescript": "^4.4.3"
   },
   "devDependencies": {
     "@types/classnames": "^2.3.1",
-    "next-sitemap": "^1.6.34"
+    "next-sitemap": "^1.6.168"
   }
 }
