@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import { AppProps } from 'next/app'
 import Router from 'next/router'
 
-import { initGA, logPageView } from '../utils/ga'
+import { initGA, logPageView } from '../lib/ga'
 import '../styles/index.css'
 
 
