@@ -3,6 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 
 const config = {
+  swcMinify: true,
   env: {
     gaId: 'UA-',
   }
