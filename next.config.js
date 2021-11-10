@@ -6,6 +6,9 @@ const config = {
   swcMinify: true,
   env: {
     gaId: 'UA-',
+  },
+  webpack (config) {
+    return config
   }
 }
 
