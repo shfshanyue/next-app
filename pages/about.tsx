@@ -4,13 +4,13 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <div className="p-4">
+    <div className="p-4 text-center">
       <Helmet
         title="About | Hello next.js!"
         meta={[{ property: 'og:title', content: 'About' }]}
       />
       <h1>
-        About the World
+        About Page
       </h1>
       <Link href="/">
         <a>Back to home</a>
