@@ -12,13 +12,13 @@ function Home() {
         <nav>
           <ul className="flex justify-center gap-4 p-0 list-none">
             <li>
-              <Link href="/">
-                <a className="decoration-current">home</a>
+              <Link href="/" className="decoration-cu ">
+                home
               </Link>
             </li>
             <li>
-              <Link href="/about">
-                <a className="decoration-current">about</a>
+              <Link href="/about" className="decoration-current">
+                about
               </Link>
             </li>
           </ul>
