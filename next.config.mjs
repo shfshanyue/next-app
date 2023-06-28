@@ -7,7 +7,7 @@ import withBundleAnalyzer from '@next/bundle-analyzer'
 const config = {
   swcMinify: true,
   env: {
-    gaId: 'UA-',
+    gaId: 'G-',
   },
   webpack (config) {
     return config
